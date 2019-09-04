@@ -1,0 +1,5 @@
+-Navigate through vim by moving the cursor using arrow keys or h(left), j(down), k(up) and l(right) keys.
+-To delete a character,place the cursor on the characterto detele and press x. 
+-To insert or append a character, press i for insert text and a for appending text.
+-When exiting Vim, press <ESC> :q! <ENTER> (Discard all changes)
+-Press <ESC> :wq <ENTER> (Save all changes) 
