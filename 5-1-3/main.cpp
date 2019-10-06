@@ -2,7 +2,7 @@
 #include "minmax.h"
 using namespace std;
 
-int main(int argc, char** args){
+int main(int argc, char** argv){
 	int n = argc-1;
 	int* arr = new int[n];
 	for (int i=0 ; i<n ; i++)
