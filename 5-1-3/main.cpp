@@ -6,7 +6,7 @@ int main(int argc, char** argv){
 	int n = argc-1;
 	int* arr = new int[n];
 	for (int i=0 ; i<n ; i++)
-		arr[i] = atoi(args[i+1]);
+		arr[i] = atoi(argv[i+1]);
 	
 	getMinMax(arr,n,arr[0],arr[n-1]);
 
