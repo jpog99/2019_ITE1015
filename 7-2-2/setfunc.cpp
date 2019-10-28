@@ -5,7 +5,7 @@
 #include "setfunc.h"
 using namespace std;
 
-set<int> parseSet(string& str){
+set<int> parseSet(const string& str){
     set<int> st;
     stringstream ss(str),input;
     string token;
